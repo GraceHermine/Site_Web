@@ -1,0 +1,86 @@
+/* Le style du navbar */
+.navbar-nav .nav-item {
+    margin-right: 10%;
+}
+
+/* Le style de l'image */
+.hero-wrap {
+    width: 100%;
+    height: calc(50vh - 10px);
+    min-height: 50px;
+    position: relative; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+/* Style de la section du texte associer a l'image */
+.her{
+    position: relative;
+    width: 640px;
+    height: 103px;
+    
+    
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    
+    color: #000000;
+}
+
+/* Le style du témoignage */
+.carousel-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: auto;
+}
+  
+.carousel-indicators button {
+    background-color: #d71a1a;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.carousel-item {
+    /* background-color: #fff9d9;  */
+    padding: 20px; 
+    padding-top: 20px;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.slide-title {
+   text-align: center;
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 20px;
+   color: #000;
+}
+.slide-content{
+    padding-top: 60px;
+}
+
+/* le style du footer */
+.ftco-footer{
+    background: rgb(71, 63, 63);
+    color: white;
+    
+}
+
+/* le style du contact */
+#navbarNav ul.navbar-nav {
+    text-align: center; /* Centre le texte */
+    margin: 0 auto; /* S'assure que l'élément est centré */
+    /* display: inline; Assure un comportement similaire au centrage */
+}
+
+/* .navbar .container {
+    display: flex; /* Active la flexbox pour organiser les éléments */
+    /* justify-content: center; Centre les enfants horizontalement */
+/* } */ 
+
