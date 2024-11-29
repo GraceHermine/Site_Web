@@ -1,7 +1,4 @@
-/* Le style du navbar */
-.navbar-nav .nav-item {
-    margin-right: 10%;
-}
+
 
 /* Le style de l'image */
 .hero-wrap {
@@ -15,6 +12,7 @@
 }
 /* Style de la section du texte associer a l'image */
 .her{
+    
     position: relative;
     width: 640px;
     height: 103px;
@@ -36,18 +34,19 @@
     height: 150px;
     object-fit: cover;
     margin: auto;
+    
 }
   
-.carousel-indicators button {
-    background-color: #d71a1a;
-    border: none;
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
+/* Masquer les flèches du carrousel */
+.carousel-control-prev, 
+.carousel-control-next {
+    display: none !important;
 }
 
+
+
 .carousel-item {
-    /* background-color: #fff9d9;  */
+    
     padding: 20px; 
     padding-top: 20px;
     border-radius: 10px; 
@@ -74,13 +73,14 @@
 
 /* le style du contact */
 #navbarNav ul.navbar-nav {
-    text-align: center; /* Centre le texte */
-    margin: 0 auto; /* S'assure que l'élément est centré */
-    /* display: inline; Assure un comportement similaire au centrage */
+    text-align: center;
+    margin: 0 auto; 
+  
 }
 
-/* .navbar .container {
-    display: flex; /* Active la flexbox pour organiser les éléments */
-    /* justify-content: center; Centre les enfants horizontalement */
-/* } */ 
+@media (max-width: 768px) {
+    .custom-button {
+        width: 100%; 
+    }
+}
 
